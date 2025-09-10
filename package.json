@@ -10,6 +10,7 @@
         "sass": "sass --watch public/assets/scss/style.scss:public/assets/css/style.css"
     },
     "dependencies": {
+        "@vercel/analytics": "^1.5.0",
         "animate.css": "^4.1.1",
         "atropos": "^1.0.2",
         "eslint": "8.34.0",

@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "@/public/assets/css/style.css";
+import { Analytics } from '@vercel/analytics/react';
 
 import { Poppins } from "next/font/google";
 
@@ -54,7 +55,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={poppins.variable}>
-      <body>{children}</body>
+      <body>{children}
+        <Analytics />
+      </body>
     </html>
   );
 }
