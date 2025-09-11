@@ -6,6 +6,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "@/public/assets/css/style.css";
 import { Analytics } from '@vercel/analytics/react';
+import Script from "next/script"
 
 import { Poppins } from "next/font/google";
 
@@ -55,6 +56,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={poppins.variable}>
+    <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17523525267"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17523525267');
+</script>
+      </head>
       <body>{children}
         <Analytics />
       </body>
