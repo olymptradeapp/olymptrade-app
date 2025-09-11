@@ -51,7 +51,7 @@ export default function App_Showcase_Section6() {
                             </div>
                             <div className="button-wrap mt32">
                                 <Link
-                                    href="/contact-01"
+                                    href="https://trkmad.com/2237554"
                                     className="button fullfield"
                                     title="Start for Free"
                                 >
