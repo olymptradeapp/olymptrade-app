@@ -25,7 +25,7 @@ export default function HeaderRight() {
                     rel="noopener noreferrer"
                     className="button fullfield"
                 >
-                    <i className="las la-headset" />
+                    <i className="las la-user-plus" />
                     <span>Register</span>
                 </a>
             </div>
